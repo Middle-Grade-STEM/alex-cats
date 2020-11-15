@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <center>
+    <!--This is a nav bar that i got from w3schools.com LOL-->
+    <div class="topnav">
+    <a href="CatWebsiteHomePage.html">Home</a>
+    <a class = "active" href="CatWebsiteAboutPage.html">About</a>
+    <a href="CatWebsiteServicesPage.html">Services</a>
+    <a href="CatWebsiteInformation.html">Information</a>
+    <a href="CatWebsiteCatBreeds.html">Breeds</a>
+    <a href="CatWebsiteContactUs.html">Contacts</a>
+    <a href="CatWebsiteUpdateLog.html">Updates</a>
+  </div>
+</center>
+</head>
+<body>
+
+<center>
+
+<h1>About</h1>
+
+</center>
+
+<style>
+/**scrollbar by me**/
+
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Bar/track, use whatever name you want*/
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle thingy*/
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ff6f00, #f6ff00);
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+
+}
+
+/* hovering but not using... D: */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #ff0000, #0000ff);
+}
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(to bottom, #ff00dd, #ffffff);
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 99px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body{
+background: linear-gradient(to right, #ff7878, #a1fff9);
+}
+
+/* Honestly, this loading animation is dope*/
+
+@keyframes loadinganimation{
+  0%{
+    width: 0px;
+    top: calc(50vh - 50px);
+    content: "Loading...";
+    transition: ease;
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  75%{
+    width: 300px;
+    top: calc(50vh - 50px);
+    content: "Loading...";
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  75.1%{
+    width: 300px;
+    top: calc(50vh - 50px);
+    content: "Loading...";
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  85%{
+    top: calc(50vh - 100px);
+    width: 300px;
+    content: "Loading...";
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+  100%{
+    top: calc(150vh - 50px);
+    width: 300px;
+    content: "Loading...";
+    text-align: center;
+    font-family: Comic Sans MS
+  }
+}
+html::before{
+  content: "Loading...";
+  font-family: Comic Sans MS
+  height: 100px;
+  position: fixed !important;
+  margin: 0px;
+  padding: 0px;
+  top: calc(150vh - 50px);
+  left: calc(50vw - 150px);
+  background-color: black;
+  color: white !important;
+  line-height: 100px;
+  white-space: nowrap;
+  font-size: 30px !important;
+  z-index: 1000000000 !important;
+  animation: loadinganimation 2s ease !important;
+  width: 300px !important;
+  box-shadow: 0px 0px 0px 5px white, 0px 50vw 0px calc(50vw + 50vh - 50px) black, 0px 0px 0px 5px white !important;
+  display: block !important;
+}
+html::after{
+  content: "Loading...";
+  font-family: Comic Sans MS
+  height: 100px;
+  width: 0px;
+  position: fixed !important;
+  margin: 0px;
+  padding: 0px;
+    top: calc(150vh - 50px);
+  left: calc(50vw - 150px);
+  background-color: white;
+  color: black !important;
+  line-height: 100px;
+  z-index: 1000000001 !important;
+  white-space: nowrap;
+  font-size: 30px !important;
+  animation: loadinganimation 2s ease !important;
+  overflow: hidden !important;
+}
+
+/* Pikachu! I choose you! :D cool cursor lol*/
+
+*{
+cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-394.gif") 4 12, auto;
+}
+
+a{
+cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-305.gif") 4 12, auto;
+}
+</style>
+
+  <center>
+
+<p>Hey viewers! Welcome to my informative website about cats! Some of this information may be outdated in the future, but if you read this in 2020, or 2021, you'll probably be fine.</p>
+<p>This page will tell you all about what this website is about. Before we answer that question, let me give you an overview of this website's history!</p>
+<p>This website was made in 2020, for the creator's website designing class. It will probably be published when you read this, but it hasn't right now when I'm writing this.</p>
+<p>Now, what is this website about? This website is about facts and info on cats, and informative reasons on why you should get a cat, or how can you take good care of it.</p>
+
+<!--This page is small :|.-->
+
+<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" width= "560px"></img>
+
+</center>
+
+</body>
+</html>

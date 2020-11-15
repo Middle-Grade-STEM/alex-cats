@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Information</title>
+  <center>
+    <!--This is a nav bar that i got from w3schools.com LOL-->
+    <div class="topnav">
+    <a href="CatWebsiteHomePage.html">Home</a>
+    <a href="CatWebsiteAboutPage.html">About</a>
+    <a href="CatWebsiteServicesPage.html">Services</a>
+    <a class = "active" href="CatWebsiteInformation.html">Information</a>
+    <a href="CatWebsiteCatBreeds.html">Breeds</a>
+    <a href="CatWebsiteContactUs.html">Contacts</a>
+    <a href="CatWebsiteUpdateLog.html">Updates</a>
+  </div>
+</center>
+</head>
+<body>
+
+  <style>
+  /**scrollbar by me**/
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  /* Bar/track, use whatever name you want*/
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  /* Handle thingy*/
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff6f00, #f6ff00);
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+
+  }
+
+  /* hovering but not using... D: */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #ff0000, #0000ff);
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(to bottom, #ff00dd, #ffffff);
+  }
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 99px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  body{
+  background: linear-gradient(to right, #ff7878, #a1fff9);
+  }
+
+  /* Honestly, this loading animation is dope*/
+
+  @keyframes loadinganimation{
+    0%{
+      width: 0px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      transition: ease;
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    75%{
+      width: 300px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    75.1%{
+      width: 300px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    85%{
+      top: calc(50vh - 100px);
+      width: 300px;
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    100%{
+      top: calc(150vh - 50px);
+      width: 300px;
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+  }
+  html::before{
+    content: "Loading...";
+    font-family: Comic Sans MS
+    height: 100px;
+    position: fixed !important;
+    margin: 0px;
+    padding: 0px;
+    top: calc(150vh - 50px);
+    left: calc(50vw - 150px);
+    background-color: black;
+    color: white !important;
+    line-height: 100px;
+    white-space: nowrap;
+    font-size: 30px !important;
+    z-index: 1000000000 !important;
+    animation: loadinganimation 2s ease !important;
+    width: 300px !important;
+    box-shadow: 0px 0px 0px 5px white, 0px 50vw 0px calc(50vw + 50vh - 50px) black, 0px 0px 0px 5px white !important;
+    display: block !important;
+  }
+  html::after{
+    content: "Loading...";
+    font-family: Comic Sans MS
+    height: 100px;
+    width: 0px;
+    position: fixed !important;
+    margin: 0px;
+    padding: 0px;
+      top: calc(150vh - 50px);
+    left: calc(50vw - 150px);
+    background-color: white;
+    color: black !important;
+    line-height: 100px;
+    z-index: 1000000001 !important;
+    white-space: nowrap;
+    font-size: 30px !important;
+    animation: loadinganimation 2s ease !important;
+    overflow: hidden !important;
+  }
+
+  /* Pikachu! I choose you! :D cool cursor lol*/
+
+  *{
+  cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-394.gif") 4 12, auto;
+  }
+
+  a{
+  cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-305.gif") 4 12, auto;
+  }
+  </style>
+
+
+<center>
+
+<h1>Information</h1>
+
+</center>
+<center>
+
+<h2>Some Basic Information</h2>
+
+<p>Cats are one of the most popular pets in the world. There are over 500 million domestic cats in the world.</p>
+<p>Cats and humans have been associated for nearly 10000 years.</p>
+<p>A male cat is called a tom, a female cat is called a queen while young cats are called kittens.</p>
+<p>Cats are one of the only or (just THE only) branch of domesticated animals from the Felidae family.</p>
+
+<h2>Sizes and instinct</h2>
+
+<p>When fully grown, the average mixed breed cat weighs between eight and ten pounds.</p>
+<p>They also measure about 15 to 20 inches in length (excluding the tail) and they stand around 10 inches tall.</p>
+<p>Cats love to hide, stalk and pounce on toys or food – or sometimes on your feet in the morning!</p>
+<p>This is another instinctive behavior that we still see in big cats in the wild when they stalk their prey. All cats are unique and they all have their own special personalities.</p>
+
+<h2>Age and Lifespan</h2>
+
+<p>Cats who are kept indoors can reach the ripe old age of 17 or more years, whereas outdoor cats live an average of just two to five years.</p>
+<p>Another reason for indoor cats' longevity is that it's easier for their owners to identify health problems early, before they become life threatening.</p>
+<p>A cat year is about 4 years in human years after they become fully grown up.</p>
+<p>A study with over 4000 cats showed that female cats live up to nearly 15% longer than male cats</p>
+
+<h2>Cat Genes and Heredity</h2>
+
+<p>The domesticated cat and its closest wild ancestor are both organisms that possess 38 chromosomes and roughly 20,000 genes.</p>
+<p>About 250 heritable genetic disorders have been identified in cats, many similar to human inborn errors.</p>
+<p>The truth is, there are so many different combinations of DNA your cat's can inherit from two parents. Kittens (just like human babies) have two copies of each gene.</p>
+<p>They receive one copy of each gene from one parent. Therefore, every kitten will receive 50% of their DNA from their mom and 50% from their dad.</p>
+
+<h2>What Cats Eat, and What Do They Love To Eat</h2>
+
+<p>Cats are meat eaters, plain and simple. They have to have protein from meat for a strong heart, good vision, and a healthy reproductive system.</p>
+<p>Cooked beef, chicken, turkey, and small amounts of lean deli meats are a great way to give them that.</p>
+<p>Cats will happily eat the same food their whole life. If your cat was bored with her food or hungry, she would stand by the refrigerator and beg.</p>
+<p>Felines are creatures of habit and prefer to eat the same food every day because they have found it to be safe.</p>
+
+<h2>Cat Behavior</h2>
+
+<p>While there are many common feline behaviors, keep in mind that each cat is special and may act in ways that are slightly different due to their personality, environment or mood.</p>
+<p>For example, the most common cat behaviors include purring, grooming, kneading and climbing.</p>
+<p>Cats in heat display very clear behavioral signs that include but are not limited to rolling around, rubbing against any and everything, restlessness, excessive vocalization, and demandingly affectionate.</p>
+<p>Cats meow for many reasons, from the serious to the attention-seeking. Numerous diseases can cause a cat to feel hunger, thirst, or pain, all of which can lead to excessive meowing.</p>
+
+<h2>Things You Need To Know If You Want To Have A Cat</h2>
+
+<p>Allow a safe place to wander & roam. Outdoor cats can climb trees, check out wildlife and have fun in the safety of their yards.</p>
+<p>Give your kitty your attention on a daily basis. Play with your cat every day, even if he doesn't seem interested at first</p>
+<p>Purchase toys that your cat will enjoy. Engage predatory impulses with interactive toys, like feathers on a string or laser mice toys</p>
+<p>Important clues such as the look in your cat's eyes, the tone of their voice, the position of their ears and even the motion of their tail can reveal their feelings and intentions. You can learn to read these signals so you'll get a good idea of what's on your cat's mind.</p>
+
+<h2>What Cats Hate</h2>
+
+<p>Loud noises. Many cats are terrified of fireworks, thunder and loud car noises such as honking, backfires and screeching tires.</p>
+<p>Other cats in their territory. All cats have a territorial nature; it's instinctual.</p>
+<p>Cats can be afraid of almost anything that is unfamiliar or has threatening qualities — it's important to remember that although cats are predators, they are 'mesopredators,' meaning they are not at the top of the food chain.</p>
+<p>Cats steer clear of strong citrus scents.</p>
+
+<h2>Cat Features</h2>
+
+<p>Generally, the colors, which can be termed differently depending on the breed, are: white, red, blue, black, cream, cinnamon, fawn and brown.</p>
+<p> The color of a cat depends completely on genetics. The two primary colours in cats are black and red.</p>
+<p>The most common cat eyes colors are greenish-yellow to gold. This would mean that their eyes have very low melanin content.</p>
+<p> The rarest cat eye color leans toward the ones that have more melanin content. Usually, this would be the darker shades of brown, copper, or orange.</p>
+
+<img src= "" width= ""></img>
+
+</center>
+
+</body>
+</html>

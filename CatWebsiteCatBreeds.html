@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Breeds</title>
+  <center>
+    <!--This is a nav bar that i got from w3schools.com LOL-->
+    <div class="topnav">
+    <a href="CatWebsiteHomePage.html">Home</a>
+    <a href="CatWebsiteAboutPage.html">About</a>
+    <a href="CatWebsiteServicesPage.html">Services</a>
+    <a href="CatWebsiteInformation.html">Information</a>
+    <a class = "active" href="CatWebsiteCatBreeds.html">Breeds</a>
+    <a href="CatWebsiteContactUs.html">Contacts</a>
+    <a href="CatWebsiteUpdateLog.html">Updates</a>
+  </div>
+</center>
+</head>
+<body>
+
+  <style>
+  /**scrollbar by me**/
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  /* Bar/track, use whatever name you want*/
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  /* Handle thingy*/
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff6f00, #f6ff00);
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+
+  }
+
+  /* hovering but not using... D: */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #ff0000, #0000ff);
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(to bottom, #ff00dd, #ffffff);
+  }
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 99px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  body{
+  background: linear-gradient(to right, #ff7878, #a1fff9);
+  }
+
+  /* Honestly, this loading animation is dope*/
+
+  @keyframes loadinganimation{
+    0%{
+      width: 0px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      transition: ease;
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    75%{
+      width: 300px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    75.1%{
+      width: 300px;
+      top: calc(50vh - 50px);
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    85%{
+      top: calc(50vh - 100px);
+      width: 300px;
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+    100%{
+      top: calc(150vh - 50px);
+      width: 300px;
+      content: "Loading...";
+      text-align: center;
+      font-family: Comic Sans MS
+    }
+  }
+  html::before{
+    content: "Loading...";
+    font-family: Comic Sans MS
+    height: 100px;
+    position: fixed !important;
+    margin: 0px;
+    padding: 0px;
+    top: calc(150vh - 50px);
+    left: calc(50vw - 150px);
+    background-color: black;
+    color: white !important;
+    line-height: 100px;
+    white-space: nowrap;
+    font-size: 30px !important;
+    z-index: 1000000000 !important;
+    animation: loadinganimation 2s ease !important;
+    width: 300px !important;
+    box-shadow: 0px 0px 0px 5px white, 0px 50vw 0px calc(50vw + 50vh - 50px) black, 0px 0px 0px 5px white !important;
+    display: block !important;
+  }
+  html::after{
+    content: "Loading...";
+    font-family: Comic Sans MS
+    height: 100px;
+    width: 0px;
+    position: fixed !important;
+    margin: 0px;
+    padding: 0px;
+      top: calc(150vh - 50px);
+    left: calc(50vw - 150px);
+    background-color: white;
+    color: black !important;
+    line-height: 100px;
+    z-index: 1000000001 !important;
+    white-space: nowrap;
+    font-size: 30px !important;
+    animation: loadinganimation 2s ease !important;
+    overflow: hidden !important;
+  }
+
+  /* Pikachu! I choose you! :D cool cursor lol*/
+
+  *{
+  cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-394.gif") 4 12, auto;
+  }
+
+  a{
+  cursor: url("http://www.mysmiley.net/pokemon/pokemon-yesemoticons-305.gif") 4 12, auto;
+  }
+  </style>
+
+
+<center>
+
+<h1> Cat Breeds </h1>
+
+<p>There are many, many cat breeds in the world, so I'll just be listing only about 10 or so basic breeds.</p>
+
+<h2><bold>A List of Cat Breeds</bold></h2>
+
+<p>Here is a list of cats that come up commonly in American households..</p>
+
+ <h3>Persian Cat</h3>
+
+<ol>
+  <il>
+    <p>Persian cats are medium-sized, usually weigh between seven and 12 pounds, and measure from 10-15 inches tall.</p>
+    <p>They have a rounded head, small, rounded ears, and big eyes. They also typically have a flat and pushed-in looking face with chubby cheeks.)</p>
+  </il>
+</ol>
+
+ <h3>Bengal Cat</h3>
+
+<ol>
+  <il>
+     <p>Bengal cat is a large, sleek and very muscular cat with a thick tail that is carried low.</p>
+     <p>The Bengal cat's wild appearance is enhanced by its distinctive thick and luxurious spotted or marbled coat.</p>
+     <p>Its broad head has small ears and pronounced whisker pads and its eyes are black rimmed and almond shaped.)</p>
+  </il>
+</ol>
+
+ <h3>American Shorthair</h3>
+
+<ol>
+  <il>
+    <p>The American Shorthair is a powerful cat. All components of this cat should be well developed.</p>
+    <p>She has a broad chest, a muscular neck, strong jaws and a well-developed muzzle. Her legs are thick and strong. Her height is usually 8-12 inches tall.)</p>
+  </il>
+</ol>
+
+ <h3>Sphynx Cat</h3>
+
+<ol>
+  <il>
+    <p>The main feature of a Sphynx cat is its lack of a fur coat! The cats are not, however, entirely hairless but covered with fine, downy hair that is said to be like a peach skin.</p>
+    <p>This cat has no whiskers or eyelashes. The head resembles that of a Devon Rex.)</p>
+  </il>
+</ol>
+
+ <h3>Maine Coon</h3>
+
+<ol>
+  <il>
+    <p>A Maine Coon has substantial, medium-length legs and large, round paws, well tufted with fur, to serve as “snowshoes” during winter.</p>
+    <p>A heavy coat is shorter on the shoulders, longer on the stomach and britches (long fur on the upper hind legs), with a ruff in front and a long, furry tail waving a greeting. </p>
+    <p>It also is usually 30-40 inches in length.)</p>
+  </il>
+</ol>
+
+ <h3>British Shorthair</h3>
+
+<ol>
+  <il>
+    <p>The British Shorthair is a medium-sized to large cat and she is a very powerful one. ...</p>
+    <p>The British Shorthair has a broad chest, muscular neck, strong jaws and a well developed muzzle. The legs are thick and strong. </p>
+    <p>The breed looks like what she originally was, a cat that was to keep rodents out of the barn and the house.</p>
+  </il>
+</ol>
+
+ <h3>Burmese</h3>
+
+<ol>
+  <il>
+    <p>The Burmese is a cat that is round all over. The head is round, the tips of the ears are round, the eyes, chin and even the feet are round.</p>
+    <p>This breed is solid both in looks and in feel and has great strength. The coat of the Burmese is short and glossy. The Burmese is also usually 8-12 pounds.)</p>
+  </il>
+</ol>
+
+ <h3>American Bobtail</h3>
+
+<ol>
+  <il>
+    <p>The American Bobtail was developed by natural selection to survive feral environments. They are medium to large cats with substantial rectangular bodies.</p>
+    <p>The tail is short, expressive, and flexible and may be straight, slightly curved, slightly kinked, or have bumps along its length.)</p>
+  </il>
+</ol>
+
+ <h3>Abyssinian Cat</h3>
+
+<ol>
+  <il>
+    <p>The Abyssinian is a medium-sized cat with a long body and nicely developed muscles. ... The coat on the Abyssinian is short and has tufts of hair in her ears.</p>
+    <p>The coloring of the Abyssinian is very special. The majority of the fur has bands of color on each individual hair with the coat looking darker along the spine line.)</p>
+  </il>
+</ol>
+
+ <h3>Himalayan Cat</h3>
+
+<ol>
+  <il>
+    <p>The Himalayan is usually a medium-sized cat although she is massive and heavily boned. ... The Himalayan is an extreme looking breed.</p>
+    <p>The body is short but thick with thick legs and a short, thick neck. The boning is heavy but the tail is short and the ears are small. She is usually 8-12 pounds in weight.)</p>
+  </il>
+</ol>
+
+<h2><bold>Summary</bold></h2>
+
+<p>There are many different cat breeds in the world. But the truth is, every cat from every breed has a different personality, look, and brain.</p>
+<p>Cats are very smart, and rank in about 3rd to 6th place in the world's smartest household pets, which may be why lots of people like them.</p>
+
+<img src= "https://www.publicdomainpictures.net/pictures/80000/velka/odd-eyed-kitten.jpg" alt= "Cat Picture" width= "850 px"></img>
+
+</center>
+
+</body>
+</html>
